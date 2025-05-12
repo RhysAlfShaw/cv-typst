@@ -14,13 +14,14 @@
 }
 
 #let left-pane = (
-  "profile",
-  "education",
   "experience",
+  "other_experience",
   "publication",
 )
 
 #let right-pane = (
+  "profile",
+  "education",
   "skills",
 )
 

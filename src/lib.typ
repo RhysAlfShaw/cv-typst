@@ -131,8 +131,10 @@
 ) = {
   if profile-photo != false {
     box(
+      height: 100pt,
+      width: auto,
       clip: true,
-      radius: 50%,
+      radius: 10%,
       photo,
     )
   } else {
@@ -150,7 +152,7 @@
     columns: cols,
     inset: 0pt,
     stroke: none,
-    column-gutter: 10pt,
+    column-gutter: 5pt,
     align: top,
     {
       left-comp
@@ -167,9 +169,9 @@
   use-photo: false,
 ) = {
   cv-header(
-    header-table(metadata),
     make-header-photo(photo, use-photo),
-    (74%, 20%),
+    header-table(metadata),
+    (20%, 80%),
     left,
   )
 }
@@ -180,7 +182,7 @@
   cv-header(
     cover-header-table(metadata),
     make-info-table(metadata),
-    (65%, 34%),
+    (75%, 35%),
     left,
   )
 }
@@ -217,8 +219,9 @@
 
 #let degree-style(degree) = (
   text(
-    weight: "bold",
-    degree,
+        weight: "bold",
+        degree,
+    )
   )
 )
 
@@ -341,6 +344,7 @@
   date: "Date",
   company: "Company",
   location: "Location",
+  description: "",
 ) = {
   table(
     columns: (1fr, 1fr),
@@ -463,7 +467,7 @@
   use-photo: false,
   left-pane: (),
   right-pane: (),
-  left-pane-proportion: 71%,
+  left-pane-proportion: 70%,
   doc,
 ) = {
   set text(

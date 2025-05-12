@@ -13,7 +13,8 @@
     company: item.company,
     location: item.location,
   )
-  - #item.description
+  #set par(justify: true)
+  #item.description
 
   #v(5pt)
 ]

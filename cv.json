@@ -31,14 +31,14 @@
         {
             "degree": "PhD in Astrophysics",
             "institution": "University of Bristol",
-            "location": "Bristol, England",
+            "location": "Bristol",
             "graduation_year": "2026",
             "thesis": "--"
         },
         {
             "degree": "Master of Science in Data Intensive Astrophysics",
             "institution": "Cardiff University",
-            "location": "Cardiff, Wales",
+            "location": "Cardiff",
             "graduation_year": "2021",
             "grade": "Distinction",
             "thesis": "The Effect of fractal substructure in early stellar cluster evolution."
@@ -46,7 +46,7 @@
         {
             "degree": "Bachelor of Science in Physics with Astrophysics",
             "institution": "University of Bristol",
-            "location": "Bristol, England",
+            "location": "Bristol",
             "graduation_year": "2020",
             "grade": "2.1",
             "thesis": "Exporing the bias in X-ray and SZ selected galaxy clusters using galaxy cluster scaling relations."
