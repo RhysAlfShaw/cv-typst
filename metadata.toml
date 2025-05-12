@@ -1,0 +1,67 @@
+[color]
+accent="#d4d2cc"
+
+[personal]
+first_name = "Rhys"
+last_name = "Shaw"
+include_icons = false
+subtitle = "PhD Student in Astrophysics"
+
+[personal.info]
+address = "Bristol, UK"
+
+[personal.info.email]
+link = "rhysalfshaw@gmail.com"
+label = "rhysalfshaw@gmail.com"
+
+[personal.info.linkedin]
+link = "https://linkedin.com/in/rhysalfshaw"
+label = "linkedin.com/in/rhysalfshaw"
+
+[personal.info.github]
+link = "https://github.com/RhysAlfShaw"
+label = "github.com/RhysAlfShaw"
+
+[personal.info.homepage]
+link = "https://rhysalfshaw.com"
+label = "rhysalfshaw.com"
+
+[personal.info.orcid]
+link = "https://orcid.org/0000-0003-4318-0737"
+label = "0000-0003-4318-0737"
+
+[personal.icon]
+address = "house"
+telephone = "phone"
+email = "envelope"
+linkedin = "linkedin"
+github = "github"
+homepage = "globe"
+orcid = "id-card"
+
+[section.icon]
+education = "graduation-cap"
+experience = "briefcase"
+languages = "language"
+other_experience = "wrench"
+personal = "brain"
+profile = "id-card"
+references = "users"
+skills = "cogs"
+
+# To change fill_color to white, replace value with "#ffffff"
+[layout]
+fill_color = "#f4f1eb"
+paper_size = "a4"
+accent_color = "#8c8c8c"
+left_pane_width = "70%"
+
+[layout.text]
+font = "modern"
+size = "10pt"
+cover_letter_size = "11pt"
+
+[layout.text.color]
+light = "#ededef"
+medium = "#78787e"
+dark = "#3c3c42"

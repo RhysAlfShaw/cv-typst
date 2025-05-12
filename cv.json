@@ -1,0 +1,84 @@
+{
+    "name": "Rhys Shaw",
+    "contact": {
+        "email": "rhysalfshaw@gmail.com",
+        "location": "Bristol",
+        "website" : "rhysalfshaw.com",
+        "orcid": "0000-0003-4318-0737",
+        "linkedin": "linkedin.com/in/rhysalfshaw",
+        "github": "github.com/rhysalfshaw"  
+    },
+    "summary": "Third Year Astrophysics PhD Student at the University of Bristol, with a focus on Machine Learning and Computing.",
+    "work_experience": [
+        {
+            "job_title": "Intern",
+            "company": "Aleph Insights",
+            "location": "London, England",
+            "start_date": "2024-03-01",
+            "end_date": "2024-09-01",
+            "description": "Worked on building a internal LLM client tool. This interacted with any LLM API, stored all data locally and allowed for attaching relevant documents from local network."
+        },
+        {
+            "job_title": "Postgraduate Teaching Assistant",
+            "company": "University of Bristol",
+            "location": "Bristol, England",
+            "start_date": "2021-09-01",
+            "end_date": "2022-06-01",
+            "description": "Lab demonstration, assinting 2ndyear undergraduates in completing there research projects. this required a detailed working knowledge of anumber of projects. Marking through conducting Interview and marking formal reports."
+        }
+    ],
+    "education": [
+        {
+            "degree": "PhD in Astrophysics",
+            "institution": "University of Bristol",
+            "location": "Bristol, England",
+            "graduation_year": "2026",
+            "thesis": "--"
+        },
+        {
+            "degree": "Master of Science in Data Intesive Astrophysics",
+            "institution": "Cardiff University",
+            "location": "Cardiff, Wales",
+            "graduation_year": "2021",
+            "grade": "Distinction",
+            "thesis": "The Effect of fractal substructure in early stellar cluster evolution."
+        },
+        {
+            "degree": "Bachelor of Science in Physics with Astrophysics",
+            "institution": "University of Bristol",
+            "location": "Bristol, England",
+            "graduation_year": "2020",
+            "grade": "2.1",
+            "thesis": "Exporing the bias in X-ray and SZ selected galaxy clusters using galaxy cluster scaling relations."
+        }
+    ],
+    "skills": {
+        "AI":[
+            "Pytorch",
+            "TensorFlow",
+            "HuggingFace"
+        ],
+        "Programming": [
+            "Python",
+            "JavaScript",
+            "LaTex",
+            "Fortran",
+            "C++",
+            "Rust",
+            "Typst"
+        ],
+        "Tools": [
+            "Git",
+            "Docker"
+        ]
+    },
+    "projects": [
+        {
+            "name": "DRUID"
+        },
+        {
+            "name": "Personal Website"
+        }
+    ],
+    "bilbiography": "bilbiography.bib"
+}
