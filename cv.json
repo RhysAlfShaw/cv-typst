@@ -11,7 +11,7 @@
     "summary": "Third Year Astrophysics PhD Student at the University of Bristol, with a focus on Machine Learning and Computing.",
     "work_experience": [
         {
-            "job_title": "Intern",
+            "job_title": "Data Science Intern",
             "company": "Aleph Insights",
             "location": "London, England",
             "start_date": "2024-03-01",
@@ -91,7 +91,8 @@
         "AI": [
             "Pytorch",
             "TensorFlow",
-            "HuggingFace"
+            "HuggingFace",
+            "Transformers"
         ],
         "Programming": [
             "Python",
@@ -106,7 +107,10 @@
             "Linux",
             "Git",
             "Docker",
-            "HPC"
+            "HPC",
+            "MongoDB",
+            "HTMX",
+            "FastAPI"
         ]
     },
     "projects": [
