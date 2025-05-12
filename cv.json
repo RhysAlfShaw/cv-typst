@@ -77,13 +77,13 @@
         {
             "name": "AIMLAC CDT PhD Studentship",
             "institution": "University of Bristol",
-            "year": 2022,
+            "year": "2022",
             "description": "Awarded a fully funded PhD studentship from the AIMLAC CDT at the University of Bristol."
         },
         {
             "name": "BSc Research Project Commendation",
             "institution": "University of Bristol",
-            "year": 2020,
+            "year": "2020",
             "description": "Commendation for my BSc research project on the bias in X-ray and SZ selected galaxy clusters using galaxy cluster scaling relations."
         }
     ],
@@ -117,12 +117,12 @@
         {
             "name": "StiltsAgent",
             "description": "A LLM agent that helps generate commands for the Astrophysics software STILTS. This is a command line tool that is used to manipulate and analyse large astronomical datasets. This agent can interact with the STILTS documentation using a Retreval augemneted generation (RAG) approach and has a fine-tuned light-weight LLM to generate reliable commands.",
-            "GitHub": "https://github.com/RhysAlfShaw/TopStiltsAgent"
+            "url": "https://github.com/RhysAlfShaw/TopStiltsAgent"
         },
         {
             "name": "DRUID",
             "description": "One of my PhD projects, DRUID is a python package that preforms source finding on astronomical images using persistent homology.",
-            "GitHub": "https://github.com/RhysAlfShaw/DRUID"
+            "url": "https://github.com/RhysAlfShaw/DRUID"
         },
         {
             "name": "Personal Website",
@@ -131,7 +131,8 @@
         },
         {
             "name":"HomeLab",
-            "description": "An ongoing project of mine is my home lab. A self-hosted server that runs a number of services including my personal website, an Immich cloud photo storage, a Zotero WebDAV cloud and a number of others. This is all run on a single server with a number of docker containers."
+            "description": "An ongoing project of mine is my home lab. A self-hosted server that runs a number of services including my personal website, an Immich cloud photo storage, a Zotero WebDAV cloud and a number of others. This is all run on a single server with a number of docker containers.",
+            "url":""
         }
     
 

@@ -339,6 +339,32 @@
   v(2pt)
 }
 
+#let award-entry(
+  degree: "Degree",
+  date: "Date",
+  institution: "Institution",
+  description: "",
+) = {
+  table(
+    columns: (3fr, 1fr),
+    inset: 0pt,
+    stroke: none,
+    row-gutter: 3mm,
+    [#degree-style(degree)], [#date-style(date)],
+    [#institution-style(institution)],
+  )
+  if description != "" {
+    v(2pt)
+    text(
+      size: 9pt,
+      style: "italic",
+      weight: "medium",
+      description,
+    )
+  }
+  v(2pt)
+}
+
 #let experience-entry(
   title: "Title",
   date: "Date",
