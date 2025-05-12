@@ -3,10 +3,10 @@
     "contact": {
         "email": "rhysalfshaw@gmail.com",
         "location": "Bristol",
-        "website" : "rhysalfshaw.com",
+        "website": "rhysalfshaw.com",
         "orcid": "0000-0003-4318-0737",
         "linkedin": "linkedin.com/in/rhysalfshaw",
-        "github": "github.com/rhysalfshaw"  
+        "github": "github.com/rhysalfshaw"
     },
     "summary": "Third Year Astrophysics PhD Student at the University of Bristol, with a focus on Machine Learning and Computing.",
     "work_experience": [
@@ -16,7 +16,7 @@
             "location": "London, England",
             "start_date": "2024-03-01",
             "end_date": "2024-09-01",
-            "description": "Worked on building a internal LLM client tool. This interacted with any LLM API, stored all data locally and allowed for attaching relevant documents from local network."
+            "description": "Worked on building a internal LLM client tool. This interacted with any LLM API, stored all data locally and allowed for attaching relevant documents from local the network."
         },
         {
             "job_title": "Postgraduate Teaching Assistant",
@@ -24,7 +24,7 @@
             "location": "Bristol, England",
             "start_date": "2021-09-01",
             "end_date": "2022-06-01",
-            "description": "Lab demonstration, assinting 2ndyear undergraduates in completing there research projects. this required a detailed working knowledge of anumber of projects. Marking through conducting Interview and marking formal reports."
+            "description": "Lab demonstration, assisting 2nd year undergraduates in completing their research projects. This required a detailed working knowledge of a number of physics experiements projects. I then accesed them through conducting interviews and marking formal reports."
         }
     ],
     "education": [
@@ -52,8 +52,31 @@
             "thesis": "Exporing the bias in X-ray and SZ selected galaxy clusters using galaxy cluster scaling relations."
         }
     ],
+    "experience": [
+        {
+            "title": "DataAid Commitee Member",
+            "organization": "DataAid",
+            "url": "https://cdt-aimlac.org/cdt-data-aid.html",
+            "start_date": "2024",
+            "end_date": "Present",
+            "description": "DataAid is a yearly student-led hackathon that aims to provide data science support to charities and non-profit organizations. As a committee member, I am responsible for helping to organize events, selecting charities that we are able to help on a technical level, as well as providing technical support to the hackathon."
+        },
+        {
+            "title": "Astrophysics Developer Group co-Lead",
+            "description": "I am a co-lead and organiser of the Astrophysics Developer Group at the University of Bristol. This an open group of PhD students and academics that meet weekly to discuss software development in their research. This includes discussing wins and issues that are coding related and a small talk/tutorial each week about a specific topic. Personally I have given talks on basic Web-developement, parallelisation and self-hosting.",
+            "url":"https://github.com/astro-group-bristol/developer-group"
+        }
+    ],
+    "awards": [
+        {
+            "name": "AIMLAC CDT PhD Studentship",
+            "institution": "University of Bristol",
+            "year": 2022,
+            "description": "Awarded a fully funded PhD studentship from the AIMLAC CDT at the University of Bristol."
+        }
+    ],
     "skills": {
-        "AI":[
+        "AI": [
             "Pytorch",
             "TensorFlow",
             "HuggingFace"
@@ -68,17 +91,29 @@
             "Typst"
         ],
         "Tools": [
+            "Linux",
             "Git",
-            "Docker"
+            "Docker",
+            "HPC"
         ]
     },
     "projects": [
         {
-            "name": "DRUID"
+            "name": "DRUID",
+            "description": "One of my PhD projects, DRUID is a python package that preforms source finding on astronomical images using persistent homology.",
+            "GitHub": "https://github.com/RhysAlfShaw/DRUID"
         },
         {
-            "name": "Personal Website"
+            "name": "Personal Website",
+            "description": "My personal website, built using FastAPI and HTMX hosted on my self-hosted server.",
+            "url": "https://rhysalfshaw.com"
+        },
+        {
+            "name":"HomeLab",
+            "description": "An ongoing project of mine is my home lab. A self-hosted server that runs a number of services including my personal website, an Immich cloud photo storage, a Zotero WebDAV cloud and a number of others. This is all run on a single server with a number of docker containers."
         }
+    
+
     ],
     "bilbiography": "bilbiography.bib"
 }
