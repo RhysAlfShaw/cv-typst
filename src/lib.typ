@@ -327,6 +327,8 @@
   location: "Location",
   description: "",
   highlights: (),
+  thesis:"",
+  grade:""
 ) = {
   table(
     columns: (3fr, 1fr),
@@ -334,6 +336,7 @@
     stroke: none,
     row-gutter: 3mm,
     [#degree-style(degree)], [#date-style(date)],
+    table.cell(colspan: 2)[#institution-style(thesis)],
     [#institution-style(institution), #location-style(location)],
   )
   v(2pt)
@@ -376,12 +379,14 @@
     columns: (1fr, 1fr),
     inset: 0pt,
     stroke: none,
-    row-gutter: 3mm,
+    row-gutter: 1mm,
     [#degree-style(title)],
     [#date-style(date)],
-    table.cell(colspan: 2)[#institution-style(company), #location-style(location)],
+    if company != "Company" {
+    table.cell(colspan: 2)[#institution-style(company), #location-style(location)]
+    }
   )
-  v(5pt)
+  v(1pt)
 }
 
 #let skill-style(skill) = {
@@ -407,12 +412,13 @@
   align,
   skills: (),
 ) = {
+  let columns = cols 
   table(
-    columns: if cols == true { (1fr, 1fr) } else { 1fr },
+    columns: columns,
     inset: 0pt,
     stroke: none,
-    row-gutter: 3mm,
-    column-gutter: 3mm,
+    row-gutter: 2mm,
+    column-gutter: 2mm,
     align: align,
     ..skills.map(sk => skill-tag(color, sk))
   )
@@ -506,10 +512,10 @@
     fill: rgb(metadata.layout.fill_color),
     paper: metadata.layout.paper_size,
     margin: (
-      left: 1.2cm,
-      right: 1.2cm,
-      top: 1.6cm,
-      bottom: 1.2cm,
+      left: 1cm,
+      right: 1cm,
+      top: 1cm,
+      bottom: 1cm,
     ),
   )
   set list(marker: [‣])
@@ -532,10 +538,10 @@
     fill: rgb(metadata.layout.fill_color),
     paper: metadata.layout.paper_size,
     margin: (
-      left: 1.2cm,
-      right: 1.2cm,
-      top: 1.6cm,
-      bottom: 1.2cm,
+      left: 1cm,
+      right: 1cm,
+      top: 1cm,
+      bottom: 1cm,
     ),
   )
   set list(marker: [‣])

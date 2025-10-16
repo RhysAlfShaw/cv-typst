@@ -4,15 +4,17 @@
 
 = Other Experience
 
-#v(5pt)
+#v(2pt)
 
 #for item in data.experience [
   #experience-entry(
-    title: item.title
+    title: item.title,
+    company: item.company,
+    location: item.location,
+    date: item.date
   )
   #set par(justify: true)
   #item.description
-
 ]
 
 

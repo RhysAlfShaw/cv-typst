@@ -15,7 +15,7 @@
 
 #skill-entry(
   accent-color,
-  multicol,
+  (1fr,1fr,1fr),
   alignment,
   skills: (data.skills.Programming),
 )
@@ -24,7 +24,7 @@
 
 #skill-entry(
   accent-color,
-  multicol,
+  (1fr,1fr),
   alignment,
   skills: (data.skills.AI),
 )
@@ -33,7 +33,7 @@
 
 #skill-entry(
   accent-color,
-  multicol,
+  (1fr,1fr,1fr),
   alignment,
   skills: (data.skills.Tools),
 )

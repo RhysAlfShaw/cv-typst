@@ -3,7 +3,7 @@
 // = Summary
 = Summary
 
-#v(5pt)
+#v(2pt)
 #set par(justify: true)
 #data.summary
-#v(5pt)
+#v(2pt)

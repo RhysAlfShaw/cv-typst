@@ -4,7 +4,7 @@
 #import "../src/lib.typ": degree-style
 #import "../src/lib.typ": institution-style
 #import "../src/lib.typ": location-style
-
+#import "../src/lib.typ": date-style
 
 #let projects-entry(
   title: "Title",
@@ -15,18 +15,18 @@
     columns: (1fr, 1fr),
     inset: 0pt,
     stroke: none,
-    row-gutter: 3mm,
+    row-gutter: 1mm ,
     [#degree-style(title)],
-    [#emph(link(url, "View Project"))],
+    if url == "" {
+      []
+    } else {
+    [#date-style(link(url, "View Project"))]
+    }
   )
-
-  v(5pt)
-  description
-  
+  description  
 }
 
 = Projects
-#v(5pt)
 #for item in data.projects [
   #projects-entry(
     title: item.name,

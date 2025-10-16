@@ -8,23 +8,23 @@
         "linkedin": "linkedin.com/in/rhysalfshaw",
         "github": "github.com/rhysalfshaw"
     },
-    "summary": "Third Year Astrophysics PhD Student at the University of Bristol, with a focus on Machine Learning and Computing.",
+    "summary": "Final year Astrophysics PhD Student at the University of Bristol, with a experience in Machine Learning, Data Analysis and software engineering.",
     "work_experience": [
         {
             "job_title": "Data Science Intern",
             "company": "Aleph Insights",
-            "location": "London, England",
+            "location": "London",
             "start_date": "2024-03-01",
-            "end_date": "2024-09-01",
-            "description": "Worked on building a internal LLM client tool. This interacted with any LLM API, stored all data locally and allowed for attaching relevant documents from local the network."
+            "end_date": "2024",
+            "description": "Worked on building a internal LLM client tool. This interacted with any LLM API, stored all data locally and allowed for attaching relevant documents from local the network. This required building a full-stack web application, for which we used FastAPI, HTMX for website front and backend. All data was held within a MongoDB."
         },
         {
             "job_title": "Postgraduate Teaching Assistant",
             "company": "University of Bristol",
             "location": "Bristol, England",
-            "start_date": "2021-09-01",
-            "end_date": "2022-06-01",
-            "description": "Lab demonstration, assisting 2nd year undergraduates in completing their research projects. This required a detailed working knowledge of a number of physics experiements projects. I then accesed them through conducting interviews and marking formal reports."
+            "start_date": "2022-09-01",
+            "end_date": "2026",
+            "description": "Lab demonstration, assisting 2nd year undergraduates in completing their research projects. This required a detailed working knowledge of a number of physics experiements. I then accesed them through interviews and marking reports."
         }
     ],
     "education": [
@@ -33,10 +33,10 @@
             "institution": "University of Bristol",
             "location": "Bristol",
             "graduation_year": "2026",
-            "thesis": "--"
+            "thesis": "Machine Learning and Analysis Techniques for Extra-Galactic Sources."
         },
         {
-            "degree": "Master of Science in Data Intensive Astrophysics",
+            "degree": "MSc Data Intensive Astrophysics",
             "institution": "Cardiff University",
             "location": "Cardiff",
             "graduation_year": "2021",
@@ -44,12 +44,12 @@
             "thesis": "The Effect of fractal substructure in early stellar cluster evolution."
         },
         {
-            "degree": "Bachelor of Science in Physics with Astrophysics",
+            "degree": "BSc Physics with Astrophysics",
             "institution": "University of Bristol",
             "location": "Bristol",
             "graduation_year": "2020",
             "grade": "2.1",
-            "thesis": "Exporing the bias in X-ray and SZ selected galaxy clusters using galaxy cluster scaling relations."
+            "thesis": "Exploring the bias in X-ray and SZ selected galaxy clusters using scaling relations."
         }
     ],
     "experience": [
@@ -57,20 +57,19 @@
             "title": "DataAid Commitee Member",
             "organization": "DataAid",
             "url": "https://cdt-aimlac.org/cdt-data-aid.html",
-            "start_date": "2024",
+            "date": "2024-2025",
             "end_date": "Present",
+            "company": "DataAid",
+            "location":"Bristol",
             "description": "DataAid is a yearly student-led hackathon that aims to provide data science support to charities and non-profit organizations. As a committee member, I am responsible for helping to organize events, selecting charities that we are able to help on a technical level, as well as providing technical support to the hackathon."
         },
         {
             "title": "Astrophysics Developer Group co-Lead",
-            "description": "I am a co-lead and organiser of the Astrophysics Developer Group at the University of Bristol. This an open group of PhD students and academics that meet weekly to discuss software development in their research. This includes discussing wins and issues that are coding related and a small talk/tutorial each week about a specific topic. Personally I have given talks on basic Web-developement, parallelisation and self-hosting.",
+            "date": "2025-2026",
+            "company":"University of Bristol",
+            "location":"Bristol",
+            "description": "I am co-lead of the Astrophysics Developer Group at the University of Bristol. This an open group of PhD students and Academics that meet weekly to discuss software development in their research. This includes discussing wins and issues that are coding related with a small talk/tutorial each week about a specific topic. I have given talks on basic Web-developement, parallelisation and self-hosting.",
             "url":"https://github.com/astro-group-bristol/developer-group"
-        },
-        {
-            "title":"LOC member for 2025 Simulation Based Inference for Galaxy Evolution Conference",
-            "organization":"University of Bristol",
-            "description":"I was a member of the local organizing committee for a small conference in Bristol. This was focused on Simulation based inference in astrophysics. I help chair dicussions and assisted in the running of the conference.",
-            "url":"https://sbi-galev.github.io/2025/"
         }
     ],
     "awards": [
@@ -97,11 +96,9 @@
         "Programming": [
             "Python",
             "JavaScript",
-            "LaTex",
             "Fortran",
             "C++",
-            "Rust",
-            "Typst"
+            "Rust"
         ],
         "Tools": [
             "Linux",
@@ -110,14 +107,15 @@
             "HPC",
             "MongoDB",
             "HTMX",
-            "FastAPI"
+            "FastAPI",
+            "Slurm"
         ]
     },
     "projects": [
         {
-            "name": "StiltsAgent",
-            "description": "A LLM agent that helps generate commands for the Astrophysics software STILTS. This is a command line tool that is used to manipulate and analyse large astronomical datasets. This agent can interact with the STILTS documentation using a Retreval augemneted generation (RAG) approach and has a fine-tuned light-weight LLM to generate reliable commands.",
-            "url": "https://github.com/RhysAlfShaw/TopStiltsAgent"
+            "name": "Stilts-nli",
+            "description": "A Natural Langauge interface to the Astrophysics software STILTS. This project consists of a cli user interface that makes calls to a finetuned open-source langauge model.",
+            "url": "https://github.com/RhysAlfShaw/stilts-nli"
         },
         {
             "name": "DRUID",
@@ -131,7 +129,7 @@
         },
         {
             "name":"HomeLab",
-            "description": "An ongoing project of mine is my home lab. A self-hosted server that runs a number of services including my personal website, an Immich cloud photo storage, a Zotero WebDAV cloud and a number of others. This is all run on a single server with a number of docker containers.",
+            "description": "A self-hosted server that runs a number of services including my personal website, an Immich cloud photo storage, a Zotero WebDAV cloud and a number of others.",
             "url":""
         }
     

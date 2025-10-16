@@ -3,7 +3,7 @@
 #import "../src/lib.typ": education-entry
 
 = Education
-#v(5pt)
+#v(2pt)
 
 #for item in data.education [
   #education-entry(
@@ -12,5 +12,6 @@
     institution: item.institution,
     location: item.location,
     description: item.thesis,
+    thesis: item.thesis
   )
 ]

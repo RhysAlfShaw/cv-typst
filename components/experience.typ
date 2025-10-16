@@ -4,7 +4,7 @@
 
 = Experience
 
-#v(5pt)
+#v(2pt)
 
 #for item in data.work_experience [
   #experience-entry(
@@ -16,6 +16,6 @@
   #set par(justify: true)
   #item.description
 
-  #v(5pt)
+  #v(2pt)
 ]
 

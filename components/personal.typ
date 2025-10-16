@@ -3,7 +3,7 @@
 
 = Personality
 
-#v(5pt)
+#v(1pt)
 
 - Analytic thinking
 - Quality conscious

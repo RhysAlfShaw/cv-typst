@@ -54,11 +54,11 @@ skills = "cogs"
 fill_color = "#f4f1eb"
 paper_size = "a4"
 accent_color = "#8c8c8c"
-left_pane_width = "65%"
+left_pane_width = "70%"
 
 [layout.text]
 font = "modern"
-size = "10pt"
+size = "9pt"
 cover_letter_size = "11pt"
 
 [layout.text.color]

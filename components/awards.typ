@@ -3,7 +3,7 @@
 #import "../src/lib.typ": award-entry
 
 = Awards
-#v(5pt)
+#v(2pt)
 
 #for item in data.awards [
   #award-entry(
