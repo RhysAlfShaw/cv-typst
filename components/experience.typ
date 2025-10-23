@@ -2,7 +2,7 @@
 #import "../src/lib.typ": experience-entry
 #let data = json("../cv.json")
 
-= Experience
+= Work Experience
 
 #v(2pt)
 

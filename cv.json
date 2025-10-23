@@ -68,7 +68,7 @@
             "date": "2025-2026",
             "company":"University of Bristol",
             "location":"Bristol",
-            "description": "I am co-lead of the Astrophysics Developer Group at the University of Bristol. This an open group of PhD students and Academics that meet weekly to discuss software development in their research. This includes discussing wins and issues that are coding related with a small talk/tutorial each week about a specific topic. I have given talks on basic Web-developement, parallelisation and self-hosting.",
+            "description": "I am co-lead of the Astrophysics Developer Group at the University of Bristol. This an open group of PhD students and Academics that meet weekly to discuss software development in their research. This includes discussing wins and issues that are coding related with a small talk/tutorial each week about a specific topic. I have given talks on basic web-developement, parallelisation, self-hosting, git and docker",
             "url":"https://github.com/astro-group-bristol/developer-group"
         }
     ],
@@ -98,6 +98,7 @@
             "JavaScript",
             "Fortran",
             "C++",
+            "C",
             "Rust"
         ],
         "Tools": [
@@ -113,7 +114,7 @@
     },
     "projects": [
         {
-            "name": "Stilts-nli",
+            "name": "STILTS-NLI",
             "description": "A Natural Langauge interface to the Astrophysics software STILTS. This project consists of a cli user interface that makes calls to a finetuned open-source langauge model.",
             "url": "https://github.com/RhysAlfShaw/stilts-nli"
         },
