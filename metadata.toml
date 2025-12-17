@@ -5,7 +5,7 @@ accent="#d4d2cc"
 first_name = "Rhys"
 last_name = "Shaw"
 include_icons = false
-subtitle = "PhD Student in Astrophysics"
+subtitle = "Astrophysics PhD Student | Data Scientist and Programmer."
 
 [personal.info]
 address = "Bristol, UK"
@@ -54,14 +54,14 @@ skills = "cogs"
 fill_color = "#f4f1eb"
 paper_size = "a4"
 accent_color = "#8c8c8c"
-left_pane_width = "60%"
+left_pane_width = "30%"
 
 [layout.text]
 font = "modern"
 size = "9pt"
-cover_letter_size = "11pt"
+cover_letter_size = "9pt"
 
 [layout.text.color]
 light = "#ededef"
-medium = "#df5c38ff"
+medium = "#246924ff"
 dark = "#3c3c42"

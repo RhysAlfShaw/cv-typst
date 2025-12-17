@@ -6,7 +6,7 @@
 #let alignment = center
 
 
-= Skills
+= Technical Skills
 
 #v(0pt)
 
@@ -20,7 +20,7 @@
   skills: (data.skills.Programming),
 )
 
-=== AI/ML
+=== ML/AI
 
 #skill-entry(
   accent-color,

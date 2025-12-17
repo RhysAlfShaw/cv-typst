@@ -8,7 +8,7 @@
         "linkedin": "linkedin.com/in/rhysalfshaw",
         "github": "github.com/rhysalfshaw"
     },
-    "summary": "Final year Astrophysics PhD Student at the University of Bristol, with a experience in Machine Learning, Data Analysis and software engineering.",
+    "summary": "Final year Astrophysics PhD Student at the University of Bristol, with a expert skills in Machine Learning, Data Analysis and software engineering.",
     "work_experience": [
         {
             "job_title": "Data Science Intern",
@@ -29,11 +29,11 @@
     ],
     "education": [
         {
-            "degree": "PhD in Astrophysics",
+            "degree": "PhD in Physics",
             "institution": "University of Bristol",
             "location": "Bristol",
             "graduation_year": "2026",
-            "thesis": "Machine Learning and Analysis Techniques for Extra-Galactic Sources."
+            "thesis": "Machine Learning and Analysis Techniques for Extra-Galactic Astronomy."
         },
         {
             "degree": "MSc Data Intensive Astrophysics",
@@ -41,7 +41,7 @@
             "location": "Cardiff",
             "graduation_year": "2021",
             "grade": "Distinction",
-            "thesis": "The Effect of fractal substructure in early stellar cluster evolution."
+            "thesis": "The Effect of Fractal Substructure in Early Stellar Cluster Evolution."
         },
         {
             "degree": "BSc Physics with Astrophysics",

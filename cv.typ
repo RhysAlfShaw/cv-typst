@@ -13,14 +13,14 @@
   }
 }
 
-#let left-pane = (
+#let right-pane = (
   "experience",
   "other_experience",
   "projects",
   "publication",
 )
 
-#let right-pane = (
+#let left-pane = (
   "profile",
   "education",
   "awards",
