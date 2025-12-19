@@ -8,7 +8,7 @@
         "linkedin": "linkedin.com/in/rhysalfshaw",
         "github": "github.com/rhysalfshaw"
     },
-    "summary": "Final-year Astrophysics PhD Student at the University of Bristol, with expert skills in Machine Learning, Data Analysis, and Programming.",
+    "summary": "Final year Astrophysics PhD Student at the University of Bristol, with a expert skills in Machine Learning, Data Analysis and Programming.",
     "work_experience": [
         {
             "job_title": "Data Science Intern",
@@ -16,7 +16,7 @@
             "location": "London",
             "start_date": "2024-03-01",
             "end_date": "2024",
-            "description": "Engineered an internal LLM client tool to interact with various LLM APIs while ensuring local data storage and local network document integration. Developed a full-stack web application using FastAPI and HTMX for the front and backend, with data managed in MongoDB."
+            "description": "Worked on building a internal LLM client tool. This interacted with any LLM API, stored all data locally and allowed for attaching relevant documents from local the network. This required building a full-stack web application, for which we used FastAPI, HTMX for website front and backend. All data was held within a MongoDB."
         },
         {
             "job_title": "Postgraduate Teaching Assistant",
@@ -24,7 +24,7 @@
             "location": "Bristol, England",
             "start_date": "2022-09-01",
             "end_date": "2026",
-            "description": "Provided lab demonstrations and technical guidance to second-year undergraduates completing research projects. Leveraged detailed knowledge of physics experiments to evaluate student progress through interviews and the marking of technical reports."
+            "description": "Lab demonstration, assisting 2nd year undergraduates in completing their research projects. This required a detailed working knowledge of a number of physics experiements. I then acessed them through interviews and marking written reports."
         }
     ],
     "education": [
@@ -54,22 +54,22 @@
     ],
     "experience": [
         {
-            "title": "DataAid Committee Member",
+            "title": "DataAid Commitee Member",
             "organization": "DataAid",
             "url": "https://cdt-aimlac.org/cdt-data-aid.html",
             "date": "2024-2026",
             "end_date": "Present",
             "company": "DataAid",
-            "location": "Bristol",
-            "description": "Committee member for a student-led hackathon providing data science support to non-profits. Responsible for event organization, technical feasibility assessment of charity projects, and providing on-site technical support to participants."
+            "location":"Bristol",
+            "description": "DataAid is a yearly student-led hackathon that aims to provide data science support to charities and non-profit organizations. As a committee member, I am responsible for helping to organize events, selecting charities that we are able to help on a technical level, as well as providing technical support to the hackathon."
         },
         {
             "title": "Astrophysics Developer Group co-Lead",
             "date": "2025-2026",
-            "company": "University of Bristol",
-            "location": "Bristol",
-            "description": "Co-lead of an open group for PhD students and academics focused on research software development. Facilitate weekly discussions on coding challenges and deliver tutorials on topics including parallelization, self-hosting, Git, and Docker.",
-            "url": "https://github.com/astro-group-bristol/developer-group"
+            "company":"University of Bristol",
+            "location":"Bristol",
+            "description": "I am co-lead of the Astrophysics Developer Group at the University of Bristol. This an open group of PhD students and Academics that meet weekly to discuss software development in their research. This includes discussing wins and issues that are coding related with a small talk/tutorial each week about a specific topic. I have given talks on basic web-developement, parallelisation, self-hosting, git and docker",
+            "url":"https://github.com/astro-group-bristol/developer-group"
         }
     ],
     "awards": [
@@ -83,12 +83,12 @@
             "name": "BSc Research Project Commendation",
             "institution": "University of Bristol",
             "year": "2020",
-            "description": "Commendation for research exploring the bias in X-ray and SZ selected galaxy clusters using scaling relations."
+            "description": "Commendation for my BSc research project on the bias in X-ray and SZ selected galaxy clusters using galaxy cluster scaling relations."
         }
     ],
     "skills": {
         "AI": [
-            "PyTorch",
+            "Pytorch",
             "TensorFlow",
             "HuggingFace",
             "Transformers"
@@ -115,24 +115,26 @@
     "projects": [
         {
             "name": "STILTS-NLI",
-            "description": "A natural language interface for the astrophysics software STILTS, featuring a CLI that utilizes a fine-tuned, open-source language model.",
+            "description": "A Natural Langauge interface to the Astrophysics software STILTS. This project consists of a cli user interface that makes calls to a finetuned open-source langauge model.",
             "url": "https://github.com/RhysAlfShaw/stilts-nli"
         },
         {
             "name": "DRUID",
-            "description": "A Python package developed for my PhD that performs source finding on astronomical images using persistent homology.",
+            "description": "One of my PhD projects, DRUID is a python package that preforms source finding on astronomical images using persistent homology.",
             "url": "https://github.com/RhysAlfShaw/DRUID"
         },
         {
             "name": "Personal Website",
-            "description": "A self-hosted portfolio site built using FastAPI and HTMX.",
+            "description": "My personal website, built using FastAPI and HTMX hosted on my self-hosted server.",
             "url": "https://rhysalfshaw.com"
         },
         {
-            "name": "Home-Lab",
-            "description": "A self-hosted server environment running various services, including my personal website, cloud photo storage and a Zotero cloud.",
-            "url": ""
+            "name":"HomeLab",
+            "description": "A self-hosted server that runs a number of services including my personal website, an Immich cloud photo storage, a Zotero WebDAV cloud and a number of others.",
+            "url":""
         }
+    
+
     ],
-    "bibliography": "bibliography.bib"
+    "bilbiography": "bilbiography.bib"
 }
