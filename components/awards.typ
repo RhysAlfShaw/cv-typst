@@ -2,7 +2,7 @@
 #let data = json("../cv.json")
 #import "../src/lib.typ": award-entry
 
-= Awards
+= Awards & Certificates
 #v(2pt)
 
 #for item in data.awards [

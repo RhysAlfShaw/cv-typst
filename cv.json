@@ -84,6 +84,12 @@
             "institution": "University of Bristol",
             "year": "2020",
             "description": "Commendation for research exploring the bias in X-ray and SZ selected galaxy clusters using scaling relations."
+        },
+        {
+            "name":"Fundamentals of Accelerated Computing with Modern CUDA C++",
+            "institution":"Nvidia - Deep Learning Institute",
+            "year":"2026",
+            "description":""
         }
     ],
     "skills": {
