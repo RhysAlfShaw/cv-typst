@@ -90,6 +90,12 @@
             "institution":"Nvidia - Deep Learning Institute",
             "year":"2026",
             "description":""
+        },
+        {
+            "name":"The Complete Web Developer in 2022: Zero to Mastery",
+            "institution":"Udemy",
+            "year":"2022",
+            "description":""
         }
     ],
     "skills": {
