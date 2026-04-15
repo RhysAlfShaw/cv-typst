@@ -5,7 +5,7 @@
         "location": "Bristol",
         "website": "rhysalfshaw.com",
         "orcid": "0000-0003-4318-0737",
-        "linkedin": "linkedin.com/in/rhysalfshaw",
+        "linkedin": "www.linkedin.com/in/rhys-shaw-6766a8166/",
         "github": "github.com/rhysalfshaw"
     },
     "summary": "Final-year Astrophysics PhD Student at the University of Bristol, with expert skills in Machine Learning, Data Analysis, and Programming.",
@@ -90,12 +90,6 @@
             "institution":"Nvidia - Deep Learning Institute",
             "year":"2026",
             "description":""
-        },
-        {
-            "name":"The Complete Web Developer in 2022: Zero to Mastery",
-            "institution":"Udemy",
-            "year":"2022",
-            "description":""
         }
     ],
     "skills": {
@@ -108,10 +102,8 @@
         "Programming": [
             "Python",
             "JavaScript",
-            "Fortran",
-            "C++",
-            "C",
-            "Rust"
+            "Fortran 95",
+            "C/C++"
         ],
         "Tools": [
             "Linux",
@@ -137,12 +129,12 @@
         },
         {
             "name": "Personal Website",
-            "description": "A self-hosted portfolio site built using FastAPI and HTMX.",
+            "description": "A minimal self-hosted portfolio site built using FastAPI and HTMX.",
             "url": "https://rhysalfshaw.com"
         },
         {
             "name": "Home-Lab",
-            "description": "A self-hosted server environment running various services, including my personal website, cloud photo storage and a Zotero cloud.",
+            "description": "A self-hosted server environment running various services, including my personal website, cloud photo storage, notetaking app, and a Zotero cloud.",
             "url": ""
         }
     ],
