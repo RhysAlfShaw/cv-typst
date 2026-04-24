@@ -23,8 +23,8 @@
 #let left-pane = (
   "profile",
   "education",
-  "awards",
   "skills",
+  "awards",
 )
 
 #show: cv.with(

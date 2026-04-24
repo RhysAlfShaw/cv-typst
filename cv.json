@@ -70,6 +70,13 @@
             "location": "Bristol",
             "description": "Co-lead of an open group for PhD students and academics focused on research software development. Facilitate weekly discussions on coding challenges and deliver tutorials on topics including parallelization, self-hosting, Git, and Docker.",
             "url": "https://github.com/astro-group-bristol/developer-group"
+        },
+        {
+            "title": "Chair of the AIMLAC CDT Student Board",
+            "date": "2023-2024",
+            "company": "AIMLAC CDT",
+            "location": "Bristol",
+            "description":"As chair of the AIMLAC CDT student board, I led meetings with the student cohorts to discuss student satisfaction with cources, events and the overall student experience. I then forwarded any concerns to the CDT managment board."
         }
     ],
     "awards": [
